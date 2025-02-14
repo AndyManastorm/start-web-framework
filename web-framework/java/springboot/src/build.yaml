@@ -1,7 +1,7 @@
 start_springboot:
   default:
     languages:
-      - java8
+      - java17
     steps:
       - run: mvn package -DskipTests
-        path: ./code
+        path: ./
